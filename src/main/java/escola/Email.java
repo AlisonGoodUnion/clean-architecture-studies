@@ -2,12 +2,12 @@ package escola;
 
 
 //classe email nao é entidade pois nao tem um identificador unico
-// e um Value Object
+// e um Value Object Fonte: https://martinfowler.com/bliki/ValueObject.html
 public class Email {
 
     private String endereco;
 
-    private static final String REGEX_EMAIL = "^[a-zA-Z0-9._]+@[a-zA-Z0-9.-]+\\\\.[a-zA-Z]{2,}$";
+    private static final String REGEX_EMAIL = "^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+).(\\.[a-z]{2,3})$";
 
     public Email(String endereco) {
         if (endereco == null || !endereco.matches(REGEX_EMAIL)) {
@@ -15,5 +15,9 @@ public class Email {
         }
 
         this.endereco = endereco;
+    }
+
+    public String getEndereco() {
+        return endereco;
     }
 }

@@ -1,13 +1,13 @@
 package escola;
 
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * o domain tem que ser distinto por isso usar o ID como identificador é errado
  * pois não sabemos qual vai ser a nossa base de dados/infra.
  * Pessoal da área de negócio usa CPF como identificador unico,
  * quanto mais proximo ao real melhor.
- *
- *
  */
 
 public class Aluno {
@@ -17,4 +17,9 @@ public class Aluno {
     private String cpf;
     private String nome;
     private Email email;
+    private List<Telefone> telefones = new ArrayList<>();
+
+    public void addTelefone(String ddd, String numero) {
+        this.telefones.add(new Telefone(ddd, numero));
+    }
 }
