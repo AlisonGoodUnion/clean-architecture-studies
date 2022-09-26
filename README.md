@@ -2,6 +2,7 @@
 Estudos sobre Arquitetura - (Limpa - Hexagonal - Onion).
 
 FONTE: https://cursos.alura.com.br/course/java-clean-architecture
+
 `Arquitetura?`
 
     A definição de arquitetura de software é muito subjetiva, 
@@ -57,3 +58,16 @@ Visão geral da Clean Architecture.
         * Independe de frameworks e detalhes de infraestrutura;(caso queira trocar de Oracle para PostGresql fica mais fácil e o domain fica isolado)
 
     Obs: caso não seguir uma boa arquitetura tudo fica amarrado e preso a infra dificultando manutenção, evolução de forma mais agil, dificulta testes etc...  
+
+
+
+
+Projeto do Curso: Funcionalidades Escola usando clean architecure.
+    * Matricular alunos;
+    * Cadastrar telefones dos alunos;
+    * Indicação de alunos;
+    * Etc;
+
+Infra necessária
+    * Java 11
+    * Gradle
