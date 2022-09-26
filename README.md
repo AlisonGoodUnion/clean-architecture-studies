@@ -62,7 +62,7 @@ Visão geral da Clean Architecture.
 
 
 
-Projeto do Curso: Funcionalidades Escola usando clean architecure.
+Projeto do Curso: Funcionalidades Escola usando clean architecture.
     * Matricular alunos;
     * Cadastrar telefones dos alunos;
     * Indicação de alunos;

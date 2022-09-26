@@ -11,6 +11,9 @@ package escola;
  */
 
 public class Aluno {
+    //uma das dificuldades é saber diferenciar uma
+    //entidade de uma entity no java que geralmente é um espelho de uma table.
+    //so que aqui estamos nos referindo a camada de negócio.
     private String cpf;
     private String nome;
     private Email email;
