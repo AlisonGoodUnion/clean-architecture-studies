@@ -14,12 +14,12 @@ public class Aluno {
     //uma das dificuldades é saber diferenciar uma
     //entidade de uma entity no java que geralmente é um espelho de uma table.
     //so que aqui estamos nos referindo a camada de negócio.
-    private String cpf;
+    private CPF cpf;
     private String nome;
     private Email email;
     private List<Telefone> telefones = new ArrayList<>();
 
-    public Aluno(String cpf, String nome, Email email) {
+    public Aluno(CPF cpf, String nome, Email email) {
         this.cpf = cpf;
         this.nome = nome;
         this.email = email;
@@ -29,7 +29,7 @@ public class Aluno {
         this.telefones.add(new Telefone(ddd, numero));
     }
 
-    public String getCpf() {
+    public CPF getCpf() {
         return cpf;
     }
 
