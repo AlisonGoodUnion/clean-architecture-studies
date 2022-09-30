@@ -1,4 +1,4 @@
-package escola;
+package escola.aluno;
 
 //da para melhorar bastante essa class,  um dos problemas é ordem de utilizacao dos metodos.
 public class AlunoBuilder {
@@ -15,7 +15,7 @@ public class AlunoBuilder {
         return this;
     }
 
-    private Aluno build() {
+    public Aluno build() {
         return this.aluno;
     }
 }

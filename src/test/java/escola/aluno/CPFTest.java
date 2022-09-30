@@ -1,5 +1,6 @@
-package escola;
+package escola.aluno;
 
+import escola.aluno.CPF;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

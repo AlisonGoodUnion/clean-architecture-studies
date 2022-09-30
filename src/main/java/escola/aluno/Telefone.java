@@ -1,4 +1,4 @@
-package escola;
+package escola.aluno;
 
 public class Telefone {
 
