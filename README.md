@@ -81,4 +81,40 @@ Arquitetura Gritante - Screaming Arch:
     https://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html
 
     Suas arquiteturas devem informar aos leitores sobre o sistema, não sobre os frameworks que você usou em seu sistema.
-    “Ah, este é um sistema de saúde”
+    Só olhando os packages = “Ah, este é um sistema de saúde”
+
+
+Modelos de Arquitetura:
+
+    Onion:
+    Arquitetura em cebolas com várias camadas, domain fica centralizado
+    em volta os serviços e no exterior a infra/UI 
+    
+![Alt text](src/main/resources/img/onion.png?raw=true "Onion")    
+
+    Hexagonal:
+    Centro representa aplicação as regras de negócio, parecida com Onion
+    e ao redor camadas de comunicação com UI, BD, Etc...  
+
+![Alt text](src/main/resources/img/hexagonal.png?raw=true "Hexagonal")    
+
+    Clean:
+    Tenta juntar o melhor dos 2 mundos, mesmo principio isolar domain onde ficam as regras e que fazem sentido ao negócio
+    e a parte de infra fica separado do negócio, a infra muda muito, e qualquer alteração na infra não impacta negócio
+    vantagem: evoluir e manter o projeto.
+![Alt text](src/main/resources/img/clean.png?raw=true "Clean")    
+
+    Simplificando Modelo Clean:
+    * Domain = regras
+    * Application = fluxos de execução da aplicação = USE CASES da clean
+    ficam códigos que fazem e executam fluxos, só que as regras ficam na camada de domain.
+    * Infraestrutura = Camada mais externa, banco, parte web, logs etc..  
+
+    Camada de entro não pode chamar a camadas de fora
+    o fluxo vem de fora para dentro.
+
+![Alt text](src/main/resources/img/cleansimple.png?raw=true "Simplificando")
+
+    Qual é o melhor modelo? não existe, devemos nos questionarmos
+    não existe melhor ou pior apenas temos que avaliar vantagens e desvantagens
+    e ver qual se encaixa melhor para o seu contexto.
