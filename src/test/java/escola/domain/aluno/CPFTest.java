@@ -1,6 +1,5 @@
-package escola.aluno;
+package escola.domain.aluno;
 
-import escola.aluno.CPF;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

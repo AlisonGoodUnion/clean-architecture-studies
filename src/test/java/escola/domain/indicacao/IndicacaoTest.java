@@ -1,8 +1,8 @@
-package escola.indicacao;
+package escola.domain.indicacao;
 
-import escola.aluno.Aluno;
-import escola.aluno.AlunoBuilder;
-import escola.aluno.Email;
+import escola.domain.aluno.Aluno;
+import escola.domain.aluno.AlunoBuilder;
+import escola.domain.aluno.Email;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

@@ -1,4 +1,4 @@
-package escola.aluno;
+package escola.domain.aluno;
 
 //da para melhorar bastante essa class,  um dos problemas é ordem de utilizacao dos metodos.
 public class AlunoBuilder {

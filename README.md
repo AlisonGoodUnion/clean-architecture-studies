@@ -112,6 +112,9 @@ Modelos de Arquitetura:
 
     Camada de entro não pode chamar a camadas de fora
     o fluxo vem de fora para dentro.
+    
+    * O conceito de modelarmos a nossa aplicação pensando 
+    primeiramente no domínio é chamado de Domain Driven Design, ou design orientado a domínio.
 
 ![Alt text](src/main/resources/img/cleansimple.png?raw=true "Simplificando")
 

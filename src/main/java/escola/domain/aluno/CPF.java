@@ -1,4 +1,4 @@
-package escola.aluno;
+package escola.domain.aluno;
 
 
 //classe email nao é entidade pois nao tem um identificador unico

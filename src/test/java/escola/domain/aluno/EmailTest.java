@@ -1,6 +1,5 @@
-package escola.aluno;
+package escola.domain.aluno;
 
-import escola.aluno.Email;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

@@ -1,4 +1,4 @@
-package escola.aluno;
+package escola.domain.aluno;
 
 public class Telefone {
 
