@@ -63,11 +63,22 @@ Visão geral da Clean Architecture.
 
 
 Projeto do Curso: Funcionalidades Escola usando clean architecture.
+
     * Matricular alunos;
     * Cadastrar telefones dos alunos;
     * Indicação de alunos;
     * Etc;
 
 Infra necessária
+
     * Java 11
     * Gradle
+        
+Arquitetura Gritante - Screaming Arch:
+
+    Pacotes são uma ferramenta essencial para toda arquitetura. 
+    Benefícios: uma estrutura mais robusta de módulos
+    https://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html
+
+    Suas arquiteturas devem informar aos leitores sobre o sistema, não sobre os frameworks que você usou em seu sistema.
+    “Ah, este é um sistema de saúde”
