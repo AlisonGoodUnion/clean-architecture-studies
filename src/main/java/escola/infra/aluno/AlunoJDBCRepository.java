@@ -60,7 +60,7 @@ public class AlunoJDBCRepository implements IAlunoRepository {
                 throw new AlunoNaoEncontradoException(cpf);
             }
 
-            String nome = rs.getString("nome").;
+            String nome = rs.getString("nome");
             Email email = new Email(rs.getString("email"));
             Aluno encontrado = new Aluno(cpf, nome, email);
 
@@ -114,5 +114,4 @@ public class AlunoJDBCRepository implements IAlunoRepository {
         }
     }
 
-}
 }

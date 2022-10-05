@@ -9,7 +9,7 @@ import java.util.List;
 //podemos usar um mongo um oracle messageria, jdbc, jpa, files etc...
 public interface IAlunoRepository {
 
-    //bussines fala matricular e nao salvar ou cadastrar
+    //bussines fala executa e nao salvar ou cadastrar
     void matricular(Aluno aluno);
 
     Aluno buscarPorCPF(CPF cpf);

@@ -13,8 +13,8 @@ class AlunoTest {
                 new Email("aaa@aaa.com.br"));
         aluno.addTelefone("55", "12345678");
 
-        Assertions.assertEquals("253.021.090-00", aluno.getCpf().getNumero());
-        Assertions.assertEquals("aaa@aaa.com.br", aluno.getEmail().getEndereco());
+        Assertions.assertEquals("253.021.090-00", aluno.getCpf());
+        Assertions.assertEquals("aaa@aaa.com.br", aluno.getEmail());
         Assertions.assertEquals("Jose Inacio", aluno.getNome());
         Assertions.assertEquals(1, aluno.getTelefones().size());
         Assertions.assertEquals("55", aluno.getTelefones().get(0).getDdd());
