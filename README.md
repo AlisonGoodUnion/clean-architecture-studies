@@ -121,3 +121,12 @@ Modelos de Arquitetura:
     Qual é o melhor modelo? não existe, devemos nos questionarmos
     não existe melhor ou pior apenas temos que avaliar vantagens e desvantagens
     e ver qual se encaixa melhor para o seu contexto.
+
+Services
+
+    Domain Services:
+        são classes que representam uma ação entre mais de uma entidade.
+    Application Services:
+        controlam o fluxo de alguma regra em nossa aplicação.
+    Infrastructure Services:
+        são implementações de interfaces presentes nas camadas de domínio ou de aplicação.
