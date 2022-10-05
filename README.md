@@ -57,9 +57,12 @@ Visão geral da Clean Architecture.
         * Código de domínio com alta "Testabilidade";
         * Independe de frameworks e detalhes de infraestrutura;(caso queira trocar de Oracle para PostGresql fica mais fácil e o domain fica isolado)
 
+    Desvantagens: 
+    
+        * Muitas classes e interfaces, recomendado para projetos complexos e que vão crescer.
+        * se for só CRUDs talvez não vale a pena usar.
+
     Obs: caso não seguir uma boa arquitetura tudo fica amarrado e preso a infra dificultando manutenção, evolução de forma mais agil, dificulta testes etc...  
-
-
 
 
 Projeto do Curso: Funcionalidades Escola usando clean architecture.
